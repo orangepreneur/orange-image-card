@@ -1,0 +1,28 @@
+{
+	"name": "orange-image-card",
+	"version": "0.0.1",
+	"description": "A simple and clean Image card which will show content on hover.",
+	"author": {
+		"name" : "Mukesh Joshi",
+		"email" : "admin@iammukesh.com",
+		"url" : "https://iammukesh.com/"
+	  },
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^7.0.0",
+		"@wordpress/blocks": "^11.0.0",
+		"@wordpress/i18n": "^4.2.1"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^17.1.0"
+	}
+}

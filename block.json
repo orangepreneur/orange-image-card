@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "orange-image-card/orange-image-card",
+	"version": "0.0.1",
+	"title": "Beautiful Image Card",
+	"category": "widgets",
+	"icon": "format-image",
+	"description": "A simple and clean Image card which will show content on hover.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "orange-image-card",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
