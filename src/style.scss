@@ -9,14 +9,8 @@
 	position: relative;
 	background: black;
 }
-.orangewp-image-card:hover img {
-	transform: scale(1.1);
-	filter: blur(3px);
-	opacity: 0.5;
-}
 .orangewp-image-card:hover .content {
 	bottom: 30px;
-	max-height: 100%;
 }
 .orangewp-image-card:hover .content p {
 	opacity: 1;
@@ -32,8 +26,7 @@
 .orangewp-image-card .content {
 	position: absolute;
 	width: 100%;
-	bottom: 0%;
-	max-height: 115px;
+	bottom: -50px;
 	box-sizing: border-box;
 	color: white;
 	padding: 20px;
@@ -47,4 +40,16 @@
 	visibility: hidden;
 	opacity: 0;
 	transition: 0.4s all linear;
+}
+
+.orangewp-image-card:hover .dim_bg {
+	opacity: 0.5;
+}
+
+.orangewp-image-card:hover .blur_bg {
+	filter: blur(3px);
+}
+
+.orangewp-image-card:hover .zoom_bg {
+	transform: scale(1.1);
 }
